@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+  <!-- 背景 -->
+  <rect x="0" y="0" width="640" height="300" fill="#f5f7fa"/>
+
+  <!-- 侧边栏面板 -->
+  <rect x="32" y="26" width="576" height="248" rx="14" fill="#ffffff" stroke="#e2e7ee"/>
+
+  <!-- 工具栏：标题条 + 右侧两个图标位 -->
+  <rect x="56" y="50" width="96" height="12" rx="6" fill="#c3ccd8"/>
+  <rect x="486" y="46" width="20" height="20" rx="5" fill="none" stroke="#aeb8c6" stroke-width="2"/>
+  <rect x="520" y="46" width="20" height="20" rx="5" fill="none" stroke="#aeb8c6" stroke-width="2"/>
+  <rect x="554" y="46" width="20" height="20" rx="5" fill="none" stroke="#aeb8c6" stroke-width="2"/>
+
+  <!-- chip 排：全部 / 运行中 / 待确认 / 未读（选中） -->
+  <rect x="56" y="82" width="96" height="30" rx="15" fill="#eef1f5"/>
+  <circle cx="74" cy="97" r="4" fill="#3aa76d"/>
+  <rect x="86" y="93" width="42" height="8" rx="4" fill="#8f9aa8"/>
+
+  <rect x="162" y="82" width="96" height="30" rx="15" fill="#eef1f5"/>
+  <circle cx="180" cy="97" r="4" fill="#e6a23c"/>
+  <rect x="192" y="93" width="42" height="8" rx="4" fill="#8f9aa8"/>
+
+  <rect x="268" y="82" width="110" height="30" rx="15" fill="#1f7bd0"/>
+  <circle cx="288" cy="97" r="5" fill="#ffffff" opacity="0.95"/>
+  <rect x="302" y="93" width="52" height="8" rx="4" fill="#ffffff" opacity="0.92"/>
+
+  <!-- 结果行 1 -->
+  <rect x="56" y="136" width="548" height="38" rx="8" fill="#f2f6fb"/>
+  <circle cx="78" cy="155" r="6" fill="#4f7cf0"/>
+  <rect x="96" y="149" width="34" height="8" rx="4" fill="#aab4c2"/>
+  <rect x="140" y="148" width="150" height="11" rx="5" fill="#5d6875"/>
+  <rect x="516" y="150" width="44" height="8" rx="4" fill="#b8c2cf"/>
+
+  <!-- 结果行 2 -->
+  <rect x="56" y="182" width="548" height="38" rx="8" fill="#f7f9fc"/>
+  <circle cx="78" cy="201" r="6" fill="#3aa76d"/>
+  <rect x="96" y="195" width="34" height="8" rx="4" fill="#aab4c2"/>
+  <rect x="140" y="194" width="186" height="11" rx="5" fill="#6b7684"/>
+  <rect x="516" y="196" width="44" height="8" rx="4" fill="#b8c2cf"/>
+
+  <!-- 结果行 3 -->
+  <rect x="56" y="228" width="548" height="38" rx="8" fill="#f7f9fc"/>
+  <circle cx="78" cy="247" r="6" fill="#e6a23c"/>
+  <rect x="96" y="241" width="34" height="8" rx="4" fill="#aab4c2"/>
+  <rect x="140" y="240" width="128" height="11" rx="5" fill="#6b7684"/>
+  <rect x="516" y="242" width="44" height="8" rx="4" fill="#b8c2cf"/>
+</svg>

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Sidebar status filter",
-    "description": "Filter the session list by Running / Needs confirmation / Unread, with status chips, counts and per-row badges.",
+    "description": "Adds a chip row under the workspace toolbar: All / Running / Needs confirmation / Unread, each with a live count. Clicking a chip lists every matching session (workspace · title · age) and opens one on click; turning off returns the official list. Working areas and the 'show more' truncation inside them are expanded automatically, so the count always equals the number of rows shown. Also puts a small status dot at the end of each session row: green running, orange needs confirmation, blue unread. Read-only: derives state from ctx.sessions.list, uiSession.sessionStatus and the userQuestions projection, writes nothing, and hides the official list only while a filter is active.",
     "detail": "docs/DETAIL.md"
   }
 }

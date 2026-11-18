@@ -4,6 +4,8 @@ DeepSeek Harness（DSH）左侧工作区的**会话状态筛选**插件：按「
 
 ![icon](./icon.svg)
 
+![筛选条与结果面板](docs/screenshot.png)
+
 ## 功能
 
 - 工具栏下方一排 chip：**全部 / 运行中 / 待确认 / 未读**，各带实时计数
