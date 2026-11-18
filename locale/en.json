@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Sidebar status filter",
+    "description": "Filter the session list by Running / Needs confirmation / Unread, with status chips, counts and per-row badges.",
+    "detail": "docs/DETAIL.md"
+  }
+}

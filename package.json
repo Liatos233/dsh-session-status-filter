@@ -1,0 +1,58 @@
+{
+  "name": "dsh-session-status-filter",
+  "version": "1.0.1",
+  "description": "DSH sidebar status filter: filter sessions by Running / Needs confirmation / Unread with live counts and row badges.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.svg",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "docs/DETAIL.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-api-workspace-controller",
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-session",
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "sidebar",
+    "session",
+    "filter",
+    "status"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Liatos233/dsh-session-status-filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Liatos233/dsh-session-status-filter/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

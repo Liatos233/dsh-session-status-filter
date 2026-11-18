@@ -1,0 +1,4 @@
+- insert:
+    - id: session-status-filter
+      name: 'dsh-session-status-filter'
+      config: {}

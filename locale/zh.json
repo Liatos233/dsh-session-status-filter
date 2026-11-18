@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "会话状态筛选",
+    "description": "按「运行中 / 待确认 / 未读」筛选会话列表，带实时计数与行尾状态徽标。",
+    "detail": "docs/DETAIL.md"
+  }
+}

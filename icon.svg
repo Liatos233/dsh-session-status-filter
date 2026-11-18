@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#247bbf"/>
+      <stop offset="1" stop-color="#1a5c92"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)"/>
+  <!-- 漏斗 -->
+  <path d="M17 17h30l-11.5 14v12.5L28.5 47V31L17 17z" fill="#ffffff" opacity="0.95"/>
+  <!-- 状态点 -->
+  <circle cx="49" cy="14" r="4.5" fill="#3aa76d"/>
+  <circle cx="49" cy="26" r="4.5" fill="#e6a23c"/>
+  <circle cx="49" cy="38" r="4.5" fill="#4f7cf0"/>
+</svg>
